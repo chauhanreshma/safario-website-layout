@@ -32,8 +32,10 @@ html,body{
 	box-shadow: 30px;
 	background-color: #6059f6;
 	border-radius: 30px;
-	padding: 12px 45px;
+	padding: 13px 45px;
 	color: white;
+    font-weight: 500;
+
 }
 .botton:hover{
 	background-color: #201aa3;
@@ -58,9 +60,54 @@ html,body{
 .frant-para{
 	width: 83%;
 	color: #888;
-	font-size: 15px;
 }
+.botton2{
+	box-shadow: 30px;
+	background-color: #6059f6;
+	border-radius: 30px;
+	padding: 14px 45px;
+	color: white;
+	top: 10px;
+	position: relative;
+    font-weight: 500;
+}
+.botton2:hover{
+	background-color: #201aa3;
+	text-decoration: none;
+	color: white;
+}
+/*@media (min-width: 768px)*/
+/*    .magic-ball::before {*/
+/*        width: 70px;*/
+/*        height: 70px;*/
+/*        left: -35px;*/
+/*        border: 15px solid #6059f6;*/
+/*    }*/
+.magic-ball::before{
+    content: "";
+    display: block;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 14px solid #6059f6;
+    opacity: .5;
+    position: relative;
+    left: -34px;
+}
+.magic-ball::after{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 14px solid #ebebff;
+    background-color:#ebebff;
+    position: relative;
+    bottom: -263px;
+    left: 10em;
+    top: 6em;
 
+}
 
 
 
