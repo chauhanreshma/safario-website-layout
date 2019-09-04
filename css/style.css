@@ -103,7 +103,7 @@ html,body{
     border: 14px solid #ebebff;
     background-color:#ebebff;
     position: relative;
-    bottom: -263px;
+    /*bottom: -263px;*/
     left: 10em;
     top: 6em;
 
