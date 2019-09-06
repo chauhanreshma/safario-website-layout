@@ -22,10 +22,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="114" column="75" selection-start-line="114" selection-start-column="75" selection-end-line="114" selection-end-column="75" />
+            <state relative-caret-position="171">
+              <caret line="134" column="43" selection-start-line="134" selection-start-column="43" selection-end-line="134" selection-end-column="43" />
               <folding>
                 <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -36,8 +37,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3267">
-              <caret line="121" column="8" selection-start-line="121" selection-start-column="8" selection-end-line="121" selection-end-column="8" />
+            <state relative-caret-position="4644">
+              <caret line="172" column="15" selection-start-line="172" selection-start-column="15" selection-end-line="172" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -132,18 +133,20 @@
       <workItem from="1567757855199" duration="1715000" />
       <workItem from="1567759662188" duration="1770000" />
       <workItem from="1567761470549" duration="1797000" />
-      <workItem from="1567763320545" duration="210000" />
+      <workItem from="1567763320545" duration="1778000" />
+      <workItem from="1567765147693" duration="1779000" />
+      <workItem from="1567766994516" duration="737000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18284000" />
+    <option name="totallyTimeSpent" value="22368000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14372164" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1482602" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -168,9 +171,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/image/bg-shape-left.webp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/block.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -178,12 +178,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/image/bg-shape-left.webp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="114" column="75" selection-start-line="114" selection-start-column="75" selection-end-line="114" selection-end-column="75" />
+        <state relative-caret-position="171">
+          <caret line="134" column="43" selection-start-line="134" selection-start-column="43" selection-end-line="134" selection-end-column="43" />
           <folding>
             <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -192,8 +196,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3267">
-          <caret line="121" column="8" selection-start-line="121" selection-start-column="8" selection-end-line="121" selection-end-column="8" />
+        <state relative-caret-position="4644">
+          <caret line="172" column="15" selection-start-line="172" selection-start-column="15" selection-end-line="172" selection-end-column="15" />
         </state>
       </provider>
     </entry>
