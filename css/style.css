@@ -172,6 +172,16 @@ service img{
     margin-top: 2em;
     color: #888;
 }
+.tour2{
+    width: 70%;
+    margin-left: 55px;
+}
+.tour-p{
+    margin-left: 55px;
+    width: 75%;
+    color: #888;
+
+}
 
 
 
