@@ -184,6 +184,33 @@ service img{
     margin-left: 55px;
     width: 75%;
     color: #888;
+}
+
+
+/*<six>*/
+
+.magic-ball3::before{
+    content: "";
+    display: block;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 14px solid #6059f6;
+    opacity: .5;
+    position: relative;
+    left: -45px;
+}
+.magic-ball3::after{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 14px solid #ebebff;
+    background-color:#ebebff;
+    position: relative;
+    left: 10em;
+    bottom: 10em;
 
 }
 
