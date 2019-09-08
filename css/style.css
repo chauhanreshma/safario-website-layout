@@ -104,8 +104,8 @@ html,body{
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    border: 14px solid #ebebff;
-    background-color:#ebebff;
+    border: 14px solid #f1f1ff;
+    background-color:#f1f1ff;
     position: relative;
     /*bottom: -263px;*/
     left: 10em;
@@ -158,8 +158,8 @@ service img{
 	width: 100px;
 	height: 100px;
 	border-radius: 50%;
-	border: 14px solid #ebebff;
-	background-color:#ebebff;
+	border: 14px solid #f1f1ff;
+	background-color:#f1f1ff;
 	position: relative;
 	left: 7em;
     bottom: 36em;
@@ -199,19 +199,20 @@ service img{
     opacity: .5;
     position: relative;
     left: -45px;
+	top: 17em;
 }
-/*.magic-ball3::after{*/
-/*    content: "";*/
-/*    display: block;*/
-/*    width: 100px;*/
-/*    height: 100px;*/
-/*    border-radius: 50%;*/
-/*    border: 14px solid #ebebff;*/
-/*    background-color:#ebebff;*/
-/*    position: relative;*/
-/*    left: 10em;*/
-/*    bottom: 10em;*/
-/*}*/
+.magic-ball3::after{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 14px solid #f1f1ff;
+    background-color:#f1f1ff;
+    position: relative;
+    left: 7em;
+    bottom: 27em;
+}
 .client-say{
 	margin: auto;
     background-color: #fff;
@@ -221,8 +222,15 @@ service img{
 }
 .client-img{
     padding-left: 50px;
+	text-align: left;
 }
 .client-details{
     margin-left: 50px;
-}
+	width: 69%;
 
+}
+.service-p{
+	font-size: 15px;
+	color: #888;
+
+}
