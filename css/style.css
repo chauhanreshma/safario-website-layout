@@ -294,5 +294,17 @@ service img{
 }
 .celender:hover{
     color: #888;
-
+}
+.date{
+    color: #888;
+    font-size: 14px;
+    padding-top: 1px;
+}
+.date:hover{
+    color: #888;
+    text-decoration: none;
+}
+.card-p{
+    width: 80%;
+    background-color: red;
 }
