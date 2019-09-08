@@ -252,3 +252,20 @@ service img{
     background-color: #869791;
 }
 
+
+/*<seven>*/
+.con-form{
+    background-color: #fff;
+    padding: 8em 0;
+
+}
+.search{
+    width: 55%;
+}
+.search-p{
+    color: #888;
+    line-height: 20px;
+    width: 85%;
+    font-size: 15px;
+}
+
