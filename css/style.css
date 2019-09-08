@@ -219,6 +219,7 @@ service img{
     padding: 35px 0px;
     border-radius: 20px;
     width: 87%;
+    margin-bottom: 5em;
 }
 .client-img{
     padding-left: 50px;
@@ -232,5 +233,22 @@ service img{
 .service-p{
 	font-size: 15px;
 	color: #888;
-
 }
+.dots{
+    background-color: red;
+    border-radius: 5px;
+    padding: 3px 10px;
+    border: none;
+    background-color:#6059f6 ;
+}
+.dots2{
+    background-color: red;
+    border-radius: 5px;
+    padding: 2px 10px;
+    border: none;
+    background-color:#cdcad5 ;
+}
+.dots2:hover{
+    background-color: #869791;
+}
+
