@@ -254,6 +254,11 @@ service img{
 
 
 /*<seven>*/
+
+.tex{
+    font-size: 15px;
+    color: #888;
+}
 .con-form{
     background-color: #fff;
     padding: 8em 0;
@@ -269,3 +274,25 @@ service img{
     font-size: 15px;
 }
 
+
+/*<eight>*/
+
+.blog{
+    width: 80%;
+    margin: auto;
+    margin-top: 2em;
+}
+.blog-a:hover{
+    color: black;
+    text-decoration: none;
+}
+.blog-a{
+    color: black;
+}
+.celender{
+    color: #888;
+}
+.celender:hover{
+    color: #888;
+
+}
