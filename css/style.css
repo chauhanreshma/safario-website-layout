@@ -278,9 +278,9 @@ service img{
 /*<eight>*/
 
 .blog{
-    width: 80%;
+    width: 95%;
     margin: auto;
-    margin-top: 2em;
+    padding: 25px 25px 30px 40px;
 }
 .blog-a:hover{
     color: black;
@@ -305,6 +305,9 @@ service img{
     text-decoration: none;
 }
 .card-p{
-    width: 80%;
-    background-color: red;
+    /*margin-bottom: 0;*/
+    color: #888;
+}
+.box{
+    box-shadow: 0 10px 20px 0 rgba(14,30,112,.1);
 }
