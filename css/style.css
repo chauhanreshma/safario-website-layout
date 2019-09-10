@@ -1,85 +1,98 @@
-html,body{
-	height: 100%;
-	width: 100%;
-	margin: 0;
-	padding: 0;
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
-.img-hero{
+
+.img-hero {
     max-width: 100%;
     height: auto;
 }
-.bg-shape::before{
-	content: "";
-	display: block;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 595px;
-	height:660px;
-	background-image: url(../image/bg-shape-left.webp);
-	background-size: cover;
-	z-index: -1;	
+
+.bg-shape::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 595px;
+    height: 660px;
+    background-image: url(../image/bg-shape-left.webp);
+    background-size: cover;
+    z-index: -1;
 }
-.bg-shape::after{
-	content: "";
-	display: block;
-	position: absolute;
-	top: 0;
-	right: 0;
-	width: 755px;
+
+.bg-shape::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 755px;
     height: 860px;
-	background-image: url(../image/bg-shape-right.webp);
-	background-size: cover;
-	z-index: -1;
+    background-image: url(../image/bg-shape-right.webp);
+    background-size: cover;
+    z-index: -1;
 }
-.botton{
-	box-shadow: 30px;
-	background-color: #6059f6;
-	border-radius: 30px;
-	padding: 13px 45px;
-	color: white;
+
+.botton {
+    box-shadow: 30px;
+    background-color: #6059f6;
+    border-radius: 30px;
+    padding: 13px 45px;
+    color: white;
     font-weight: 500;
 
 }
-.botton:hover{
-	background-color: #201aa3;
-	text-decoration: none;
-	color: white;
+
+.botton:hover {
+    background-color: #201aa3;
+    text-decoration: none;
+    color: white;
 }
-.home-tex{
-	color:#6059f6 !important;
+
+.home-tex {
+    color: #6059f6 !important;
 }
-.nav-list{
-	color: black !important;
+
+.nav-list {
+    color: black !important;
 }
-.nav-list:hover{
-	color: #6059f6 !important;
+
+.nav-list:hover {
+    color: #6059f6 !important;
 }
-.travel-hed{
-	color: #6059f6;
-	font-size: 45px;
-	text-transform: uppercase;
-	padding-top: 3em;
+
+.travel-hed {
+    color: #6059f6;
+    font-size: 45px;
+    text-transform: uppercase;
+    padding-top: 3em;
 }
-.frant-para{
-	width: 83%;
-	color: #888;
+
+.frant-para {
+    width: 83%;
+    color: #888;
 }
-.botton2{
-	box-shadow: 30px;
-	background-color: #6059f6;
-	border-radius: 30px;
-	padding: 14px 45px;
-	color: white;
-	top: 10px;
-	position: relative;
+
+.botton2 {
+    box-shadow: 30px;
+    background-color: #6059f6;
+    border-radius: 30px;
+    padding: 14px 45px;
+    color: white;
+    top: 10px;
+    position: relative;
     font-weight: 500;
 }
-.botton2:hover{
-	background-color: #201aa3;
-	text-decoration: none;
-	color: white;
+
+.botton2:hover {
+    background-color: #201aa3;
+    text-decoration: none;
+    color: white;
 }
+
 /*@media (min-width: 768px)*/
 /*    .magic-ball::before {*/
 /*        width: 70px;*/
@@ -87,7 +100,7 @@ html,body{
 /*        left: -35px;*/
 /*        border: 15px solid #6059f6;*/
 /*    }*/
-.magic-ball::before{
+.magic-ball::before {
     content: "";
     display: block;
     width: 70px;
@@ -98,14 +111,15 @@ html,body{
     position: relative;
     left: -34px;
 }
-.magic-ball::after{
+
+.magic-ball::after {
     content: "";
     display: block;
     width: 100px;
     height: 100px;
     border-radius: 50%;
     border: 14px solid #f1f1ff;
-    background-color:#f1f1ff;
+    background-color: #f1f1ff;
     position: relative;
     /*bottom: -263px;*/
     left: 10em;
@@ -114,19 +128,20 @@ html,body{
 }
 
 
-
 /*<three>*/
-.service{
-	background-color: #f8f8ff;
+.service {
+    background-color: #f8f8ff;
 }
-.service:hover{
+
+.service:hover {
     background-color: #ffffff;
 }
-service img{
-	height: 184px;
+
+service img {
+    height: 184px;
 }
 
-.card-para{
+.card-para {
     /*width: 85%;*/
     color: #888;
     text-align: center;
@@ -136,60 +151,105 @@ service img{
 
 /*<four>*/
 
-.bg-color{
-	background-color: #f8f8ff;
+.bg-color {
+    background-color: #f8f8ff;
 }
 
-.magic-ball2::before{
-	content: "";
-	display: block;
-	width: 70px;
-	height: 70px;
-	border-radius: 50%;
-	border: 14px solid #6059f6;
-	opacity: .5;
-	position: relative;
-	left: -54px;
+.magic-ball2::before {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 14px solid #6059f6;
+    opacity: .5;
+    position: relative;
+    left: -54px;
     top: 17em;
 }
-.magic-ball2::after{
-	content: "";
-	display: block;
-	width: 100px;
-	height: 100px;
-	border-radius: 50%;
-	border: 14px solid #f1f1ff;
-	background-color:#f1f1ff;
-	position: relative;
-	left: 7em;
+
+.magic-ball2::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 14px solid #f1f1ff;
+    background-color: #f1f1ff;
+    position: relative;
+    left: 7em;
     bottom: 36em;
 }
-.about-img{
-	padding:4em 0;
+
+.about-img {
+    padding: 4em 0;
 }
-.about-head{
+
+.about-head {
     width: 55%;
     margin-top: 4em;
 }
-.about-para{
-   width: 90%;
+
+.about-para {
+    width: 90%;
     margin-top: 2em;
     color: #888;
 }
-.tour2{
+
+
+/*<five>*/
+
+.tour2 {
     width: 70%;
     margin-left: 55px;
 }
-.tour-p{
+
+.tour-p {
     margin-left: 55px;
     width: 75%;
     color: #888;
 }
 
+.card-overlay {
+    background-color: red;
+    padding: 25px;
+    position: absolute;
+    width: 97%;
+    bottom: 12em;
+    opacity: 0;
+    /*z-index: -1;*/
+    transition: 1s;
+    transform: scale(0);
+
+}
+.tour-card:hover{
+    opacity: 1;
+    /*z-index: 1;*/
+    position: relative;
+    transition: 1s;
+    transform: scale(1);
+
+
+}
+
+/*@media (min-width: 1200px)*/
+/*    .tour-card.card-overlay:hover {*/
+/*        width: 74%;*/
+/*    }*/
+
+
+.p-font {
+    font-size: 15px;
+    color: #888;
+}
+
+.media {
+    display: flex;
+}
+
 
 /*<six>*/
-
-.magic-ball3::before{
+.magic-ball3::before {
     content: "";
     display: block;
     width: 70px;
@@ -199,115 +259,136 @@ service img{
     opacity: .5;
     position: relative;
     left: -45px;
-	top: 17em;
+    top: 17em;
 }
-.magic-ball3::after{
+
+.magic-ball3::after {
     content: "";
     display: block;
     width: 100px;
     height: 100px;
     border-radius: 50%;
     border: 14px solid #f1f1ff;
-    background-color:#f1f1ff;
+    background-color: #f1f1ff;
     position: relative;
     left: 7em;
     bottom: 27em;
 }
-.client-say{
-	margin: auto;
+
+.client-say {
+    margin: auto;
     background-color: #fff;
     padding: 35px 0px;
     border-radius: 20px;
     width: 87%;
     margin-bottom: 5em;
 }
-.client-img{
+
+.client-img {
     padding-left: 50px;
-	text-align: left;
+    text-align: left;
 }
-.client-details{
+
+.client-details {
     margin-left: 50px;
-	width: 69%;
+    width: 69%;
 
 }
-.service-p{
-	font-size: 15px;
-	color: #888;
+
+.service-p {
+    font-size: 15px;
+    color: #888;
 }
-.dots{
+
+.dots {
     background-color: red;
     border-radius: 5px;
     padding: 3px 10px;
     border: none;
-    background-color:#6059f6 ;
+    background-color: #6059f6;
 }
-.dots2{
+
+.dots2 {
     background-color: red;
     border-radius: 5px;
     padding: 2px 10px;
     border: none;
-    background-color:#cdcad5 ;
+    background-color: #cdcad5;
 }
-.dots2:hover{
+
+.dots2:hover {
     background-color: #869791;
 }
 
 
 /*<seven>*/
-
-.tex{
+.tex {
     font-size: 15px;
     color: #888;
 }
-.con-form{
+
+.con-form {
     background-color: #fff;
     padding: 8em 0;
 
 }
-.search{
+
+.search {
     width: 55%;
 }
-.search-p{
+
+.search-p {
     color: #888;
     line-height: 20px;
     width: 85%;
     font-size: 15px;
 }
 
+.form-con {
+    padding: 10px 20px;
+}
+
 
 /*<eight>*/
-
-.blog{
+.blog {
     width: 95%;
     margin: auto;
-    padding: 25px 25px 30px 40px;
+    padding: 25px 25px 15px 40px;
 }
-.blog-a:hover{
+
+.blog-a:hover {
     color: black;
     text-decoration: none;
 }
-.blog-a{
+
+.blog-a {
     color: black;
 }
-.celender{
+
+.celender {
     color: #888;
 }
-.celender:hover{
+
+.celender:hover {
     color: #888;
 }
-.date{
+
+.date {
     color: #888;
     font-size: 14px;
     padding-top: 1px;
 }
-.date:hover{
+
+.date:hover {
     color: #888;
     text-decoration: none;
 }
-.card-p{
+
+.card-p {
     /*margin-bottom: 0;*/
     color: #888;
 }
-.box{
-    box-shadow: 0 10px 20px 0 rgba(14,30,112,.1);
+
+.box {
+    box-shadow: 0 10px 20px 0 rgba(14, 30, 112, .1);
 }
