@@ -215,22 +215,21 @@ service img {
     padding: 25px;
     position: absolute;
     width: 97%;
-    bottom: 12em;
-    opacity: 0;
-    /*z-index: -1;*/
-    transition: 1s;
-    transform: scale(0);
-
+    bottom: 0;
+    transition: width 0.1s;
 }
-.tour-card:hover{
-    opacity: 1;
-    /*z-index: 1;*/
-    position: relative;
-    transition: 1s;
-    transform: scale(1);
-
-
+.card-overlay:hover{
+    width: 72%;
 }
+/*.tour-card:hover{*/
+/*    opacity: 1;*/
+/*    !*z-index: 1;*!*/
+/*    position: relative;*/
+/*    transition: 1s;*/
+/*    transform: scale(1);*/
+
+
+/*}*/
 
 /*@media (min-width: 1200px)*/
 /*    .tour-card.card-overlay:hover {*/
