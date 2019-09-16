@@ -211,40 +211,29 @@ service img {
 }
 
 .card-overlay {
-    background-color: red;
-    padding: 25px;
-    position: relative;
+    background-color: #fff;
+    padding: 20px;
+    position: absolute;
     width: 97%;
-    bottom: 95px;
+    bottom: -138px;
     transition: width 0.1s;
     transition-duration: 0.5s;
     transition-delay: 0.5s;
-    /*opacity: 0;*/
+    opacity: 0;
 }
-.card-overlay:hover{
-    opacity: 1;
-    bottom: 180px;
-
-}
-.tour-card:{
-    position: absolute;
+.tour-card:hover .card-overlay{
+    width: 70%;
     transition: 0.5s;
-    transform: scale(0);
-
-}
-.tour-card:hover{
-    transform: scale(1);
 }
 
-
-/*}*/
-
-/*@media (min-width: 1200px)*/
-/*    .tour-card.card-overlay:hover {*/
-/*        width: 74%;*/
-/*    }*/
-
-
+.tour-card: {
+    transition: 0.5s;
+    overflow: hidden;
+}
+.tour-card:hover .card-overlay {
+    opacity: 1;
+    bottom: 6px;
+}
 .p-font {
     font-size: 15px;
     color: #888;
