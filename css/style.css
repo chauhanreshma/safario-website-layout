@@ -232,7 +232,7 @@ service img {
 }
 .tour-card:hover .card-overlay {
     opacity: 1;
-    bottom: 6px;
+    bottom: 0px;
 }
 .p-font {
     font-size: 15px;
@@ -315,7 +315,23 @@ service img {
 .dots2:hover {
     background-color: #869791;
 }
+/*.nine::after {*/
+/*    background-color: red;*/
+/*    font-size: 50px;*/
 
+/*}*/
+
+.nine{
+    font-size: 9em;
+    position: relative;
+    /*background-color: red;*/
+    width: 15%;
+    left: 5em;
+    bottom: 175px;
+    color: rgba(119,119,119,.1);
+    height: 0px;
+    font-weight: 400;
+}
 
 /*<seven>*/
 .tex {
