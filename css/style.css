@@ -342,7 +342,24 @@ service img {
 .search {
     width: 55%;
 }
+.search-form .form-control{
+    height: 50px;
+    border: 0px;
+    margin-left: 50px;
+    font-size: 15px;
+    color: #888;
+}
 
+.search-form .input-group-append .input-group-text{
+    border: 0px;
+    margin-right: 50px;
+    background-color: #fff;
+}
+.select{
+    padding: 13px 175px;
+    margin: 10px 51px;
+    border: 0;
+}
 .search-p {
     color: #888;
     line-height: 20px;
