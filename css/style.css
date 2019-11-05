@@ -412,6 +412,6 @@ service img {
     color: #888;
 }
 
-.box {
+.box :hover{
     box-shadow: 0 10px 20px 0 rgba(14, 30, 112, .1);
 }
