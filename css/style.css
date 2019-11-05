@@ -414,3 +414,9 @@ service img {
     color: blue;
     text-decoration: none;
 }
+.email{
+    color: #888;
+    border: solid 1px #888;
+    padding: 8px 0;
+    width: 65%;
+}
