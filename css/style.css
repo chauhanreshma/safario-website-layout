@@ -371,23 +371,7 @@ service img {
     padding: 10px 20px;
 }
 
-
-/*<eight>*/
-/*.blog {*/
-/*    width: 95%;*/
-/*    margin: auto;*/
-/*    padding: 25px 25px 15px 40px;*/
-/*}*/
-
-/*.blog-a:hover {*/
-/*    color: black;*/
-/*    text-decoration: none;*/
-/*}*/
-
-/*.blog-a {*/
-/*    color: black;*/
-/*}*/
-
+/*<nine>*/
 .celender {
     color: #888;
 }
@@ -396,23 +380,15 @@ service img {
     color: #888;
     text-decoration: none;
 }
-
 .date {
     color: #888;
     font-size: 14px;
     padding-top: 1px;
 }
-
 .date:hover {
     color: #888;
     text-decoration: none;
 }
-
-/*.card-p {*/
-/*    !*margin-bottom: 0;*!*/
-/*    color: #888;*/
-/*}*/
-
 .box :hover{
     box-shadow: 0 10px 20px 0 rgba(14, 30, 112, .1);
 }
@@ -425,4 +401,16 @@ service img {
 }
 .cale-size{
     font-size: 13px;
+}
+
+/*<ten>*/
+.foot-p{
+    font-size: 15px;
+}
+.footer-a{
+    color: #888;
+}
+.footer-a:hover{
+    color: blue;
+    text-decoration: none;
 }
