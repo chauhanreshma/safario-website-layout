@@ -402,8 +402,14 @@ service img {
 .cale-size{
     font-size: 13px;
 }
+.card-hover:hover{
+    box-shadow: 0 10px 20px 0 rgba(14,30,112,.1);
+}
 
 /*<ten>*/
+.foot-bg{
+    background-color:#04091e;
+}
 .foot-p{
     font-size: 15px;
 }
@@ -418,5 +424,34 @@ service img {
     color: #888;
     border: solid 1px #888;
     padding: 8px 0;
-    width: 65%;
+    width: 80%;
+}
+.location{
+    border: solid #6059f6 1px;
+    padding: 10px 12px;
+    background-color: #6059f6;
+    margin-left: -5px;
+}
+.footline{
+    /*border-top: solid red 1px;*/
+    padding: 1px;
+    background-color: red;
+}
+.foot-colorlib:hover{
+    text-decoration: none;
+    color: #6059f6;
+}
+.hart{
+    color: #6059f6;
+}
+.foot-colorlib{
+    color: #6059f6;
+}
+.foot-tex{
+    font-size: 15px;
+}
+.foot-font{
+    position: relative;
+    left: 135px;
+    width: 60%;
 }
