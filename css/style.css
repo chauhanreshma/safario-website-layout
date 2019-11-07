@@ -148,9 +148,7 @@ service img {
     padding: 15px 20px;
 }
 
-
 /*<four>*/
-
 .bg-color {
     background-color: #f8f8ff;
 }
@@ -371,7 +369,7 @@ service img {
     padding: 10px 20px;
 }
 
-/*<nine>*/
+/*<eight>*/
 .celender {
     color: #888;
 }
@@ -406,7 +404,7 @@ service img {
     box-shadow: 0 10px 20px 0 rgba(14,30,112,.1);
 }
 
-/*<ten>*/
+/*<nine>*/
 .foot-bg{
     background-color:#04091e;
 }
@@ -433,7 +431,6 @@ service img {
     margin-left: -5px;
 }
 .footline{
-    /*border-top: solid red 1px;*/
     padding: 1px;
     background-color: red;
 }
